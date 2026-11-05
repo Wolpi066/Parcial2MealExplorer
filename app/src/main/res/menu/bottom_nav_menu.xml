@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Las tres pestañas de la barra de abajo. Cada id se usa en MainActivity
+     para saber que Fragment mostrar. -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_categories"
+        android:icon="@drawable/ic_category"
+        android:title="@string/nav_categories" />
+
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/nav_search" />
+
+    <item
+        android:id="@+id/nav_notebook"
+        android:icon="@drawable/ic_book"
+        android:title="@string/nav_notebook" />
+
+</menu>

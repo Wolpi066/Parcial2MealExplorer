@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- En horizontal hay poco alto: con 6 columnas las tarjetas son mas
+         chicas y entra una fila entera con el nombre. -->
+    <integer name="grid_columns">6</integer>
+</resources>

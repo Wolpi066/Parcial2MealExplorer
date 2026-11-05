@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lo que muestra Picasso mientras baja la foto, o si no la pudo bajar (por
+     ejemplo, sin internet). Es un fondo liso con el icono de cubiertos al medio.
+     El fondo tiene tamaño fijo para que al estirarse con centerCrop el icono no
+     quede gigante. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:width="200dp"
+        android:height="200dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/placeholder_background" />
+        </shape>
+    </item>
+
+    <item
+        android:width="56dp"
+        android:height="56dp"
+        android:drawable="@drawable/ic_placeholder_meal"
+        android:gravity="center" />
+
+</layer-list>

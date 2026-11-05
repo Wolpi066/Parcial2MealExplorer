@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Paleta de la app (verde albahaca), con los roles de color de Material 3.
+         Son los mismos valores que ui/theme/Color.kt, asi las pantallas XML y el
+         detalle en Compose se ven iguales. Las variantes _dark las usa el tema
+         de modo oscuro, en values-night/themes.xml -->
+    <color name="brand_primary">#3B6939</color>
+    <color name="brand_primary_container">#BCF0B4</color>
+    <color name="brand_on_primary_container">#002204</color>
+    <color name="brand_secondary_container">#D5E8CF</color>
+    <color name="brand_on_secondary_container">#101F10</color>
+    <color name="brand_surface">#F7FBF1</color>
+    <color name="brand_on_surface">#181D17</color>
+    <color name="brand_on_surface_variant">#424940</color>
+    <color name="brand_surface_container_low">#F1F5EB</color>
+    <color name="brand_surface_container">#EBEFE6</color>
+    <color name="brand_surface_container_high">#E6E9E0</color>
+
+    <color name="brand_primary_dark">#A1D39A</color>
+    <color name="brand_on_primary_dark">#0A390F</color>
+    <color name="brand_primary_container_dark">#235023</color>
+    <color name="brand_on_primary_container_dark">#BCF0B4</color>
+    <color name="brand_secondary_container_dark">#3B4B39</color>
+    <color name="brand_on_secondary_container_dark">#D5E8CF</color>
+    <color name="brand_surface_dark">#10140F</color>
+    <color name="brand_on_surface_dark">#E0E4DA</color>
+    <color name="brand_on_surface_variant_dark">#C2C9BD</color>
+    <color name="brand_surface_container_low_dark">#181D17</color>
+    <color name="brand_surface_container_dark">#1C211B</color>
+    <color name="brand_surface_container_high_dark">#272B25</color>
+
+    <!-- Fondo e icono que se ven mientras cargan las fotos. Tienen su version
+         oscura en values-night/colors.xml -->
+    <color name="placeholder_background">#DEE5D8</color>
+    <color name="placeholder_icon">#72796F</color>
+</resources>

@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema claro. NoActionBar porque el titulo de cada pantalla lo armamos
+         nosotros dentro del layout. -->
+    <style name="Base.Theme.Parcial2MealExplorer" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/brand_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/brand_on_primary_container</item>
+        <item name="colorSecondaryContainer">@color/brand_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/brand_on_secondary_container</item>
+        <item name="android:colorBackground">@color/brand_surface</item>
+        <item name="colorSurface">@color/brand_surface</item>
+        <item name="colorOnSurface">@color/brand_on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/brand_on_surface_variant</item>
+        <item name="colorSurfaceContainerLow">@color/brand_surface_container_low</item>
+        <item name="colorSurfaceContainer">@color/brand_surface_container</item>
+        <item name="colorSurfaceContainerHigh">@color/brand_surface_container_high</item>
+    </style>
+
+    <style name="Theme.Parcial2MealExplorer" parent="Base.Theme.Parcial2MealExplorer" />
+</resources>

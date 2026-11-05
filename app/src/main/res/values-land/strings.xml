@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- En horizontal la foto de cada tarjeta es mas baja (4:3) para que entre
+         el nombre del plato debajo. -->
+    <string name="meal_photo_ratio" translatable="false">4:3</string>
+</resources>

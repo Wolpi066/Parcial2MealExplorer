@@ -1,0 +1,68 @@
+<resources>
+    <!-- Todos los textos visibles van aca y no sueltos en los XML,
+         asi quedan en un solo lugar. Se usan con @string/nombre o getString(). -->
+    <string name="app_name">MealExplorer</string>
+
+    <!-- Barra de abajo -->
+    <string name="nav_categories">Categorías</string>
+    <string name="nav_search">Buscar</string>
+    <string name="nav_notebook">Mi libreta</string>
+
+    <!-- Pestaña de categorias -->
+    <string name="title_categories">Recetas por categoría</string>
+    <string name="action_random">¿Qué cocino hoy?</string>
+    <string name="message_categories_empty">No hay recetas en esta categoría.</string>
+
+    <!-- Pestaña buscar -->
+    <string name="title_search">Buscar recetas</string>
+    <string name="search_by_name">Nombre</string>
+    <string name="search_by_ingredient">Ingrediente</string>
+    <string name="hint_search_name">Nombre del plato</string>
+    <string name="hint_search_ingredient">Ingrediente principal</string>
+    <string name="helper_search_name">Los nombres están en inglés: pie, curry, pasta</string>
+    <string name="helper_search_ingredient">Escribilo en inglés: chicken, rice, garlic</string>
+    <string name="message_search_start">Escribí al menos 3 letras para buscar.</string>
+    <string name="message_search_empty">No encontramos recetas para \"%1$s\". Probá con otra palabra en inglés.</string>
+
+    <!-- Pestaña mi libreta -->
+    <string name="title_notebook">Mi libreta</string>
+    <string name="subtitle_notebook">Tus recetas guardadas. Las podés ver sin internet.</string>
+    <string name="message_notebook_empty">Todavía no guardaste ninguna receta.\n\nAbrí una receta y tocá \"Guardar en mi libreta\" para tenerla acá, incluso sin conexión.</string>
+    <string name="dialog_delete_title">Quitar receta</string>
+    <string name="dialog_delete_message">¿Querés quitar \"%1$s\" de tu libreta? También se borra tu nota.</string>
+    <string name="dialog_delete_confirm">Quitar</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="error_database">No se pudo leer tu libreta.</string>
+
+    <!-- Detalle de una receta -->
+    <string name="title_detail">Receta</string>
+    <string name="action_back">Volver</string>
+    <string name="label_category">Categoría: %1$s</string>
+    <string name="label_area">Origen: %1$s</string>
+    <string name="action_save_to_notebook">Guardar en mi libreta</string>
+    <string name="action_remove_from_notebook">Quitar de mi libreta</string>
+    <string name="action_video">Ver video</string>
+    <string name="action_share">Compartir</string>
+    <string name="title_notes">Mis notas</string>
+    <string name="hint_notes">Ej: le puse menos sal, sale mejor con arroz</string>
+    <string name="action_save_note">Guardar nota</string>
+    <string name="message_note_saved">Nota guardada</string>
+    <string name="title_ingredients">Ingredientes (%1$d)</string>
+    <string name="title_steps">Preparación</string>
+    <string name="error_meal_not_found">No encontramos esa receta.</string>
+    <string name="error_no_video_app">No hay ninguna app para abrir el video.</string>
+    <string name="share_chooser_title">Compartir receta</string>
+    <string name="share_text">%1$s\n\nIngredientes:\n%2$s\n\nReceta completa: %3$s</string>
+
+    <!-- Mensajes y errores que comparten las pantallas -->
+    <string name="action_retry">Reintentar</string>
+    <string name="error_no_connection">Sin conexión a internet. Las recetas que guardaste siguen disponibles en Mi libreta.</string>
+    <string name="error_server">El servidor no respondió bien. Probá de nuevo en un rato.</string>
+    <string name="error_unexpected">Ocurrió un error inesperado.</string>
+
+    <!-- Tarjeta de una receta en la grilla. meal_photo_ratio no se traduce:
+         es la proporcion de la foto (en horizontal se pisa en values-land). -->
+    <string name="meal_photo_ratio" translatable="false">1:1</string>
+    <string name="content_description_meal_photo">Foto del plato</string>
+    <string name="action_delete">Quitar de mi libreta</string>
+</resources>

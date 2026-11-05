@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Mismo tema pero con los colores del modo oscuro. Android elige este
+         solo cuando el celular esta en modo noche. -->
+    <style name="Base.Theme.Parcial2MealExplorer" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary_dark</item>
+        <item name="colorOnPrimary">@color/brand_on_primary_dark</item>
+        <item name="colorPrimaryContainer">@color/brand_primary_container_dark</item>
+        <item name="colorOnPrimaryContainer">@color/brand_on_primary_container_dark</item>
+        <item name="colorSecondaryContainer">@color/brand_secondary_container_dark</item>
+        <item name="colorOnSecondaryContainer">@color/brand_on_secondary_container_dark</item>
+        <item name="android:colorBackground">@color/brand_surface_dark</item>
+        <item name="colorSurface">@color/brand_surface_dark</item>
+        <item name="colorOnSurface">@color/brand_on_surface_dark</item>
+        <item name="colorOnSurfaceVariant">@color/brand_on_surface_variant_dark</item>
+        <item name="colorSurfaceContainerLow">@color/brand_surface_container_low_dark</item>
+        <item name="colorSurfaceContainer">@color/brand_surface_container_dark</item>
+        <item name="colorSurfaceContainerHigh">@color/brand_surface_container_high_dark</item>
+    </style>
+</resources>
